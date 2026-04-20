@@ -122,11 +122,9 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
 
       <div className="flex-1 flex flex-col min-w-0">
         <header className="lg:hidden h-14 border-b bg-card flex items-center px-4 gap-3">
-          <SheetTrigger asChild>
-            <Button variant="ghost" size="icon" onClick={() => setOpen(true)}>
-              <Menu className="h-5 w-5" />
-            </Button>
-          </SheetTrigger>
+          <Button variant="ghost" size="icon" onClick={() => setOpen(true)}>
+            <Menu className="h-5 w-5" />
+          </Button>
           <div className="font-semibold text-gradient">SkillPath</div>
         </header>
         <main key={location.pathname} className="flex-1 p-4 md:p-8 animate-fade-in">

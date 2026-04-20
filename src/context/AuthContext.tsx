@@ -1,6 +1,5 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
-import { Role, StudentProfile, MOCK_STUDENTS, initialStudentForSignup, sampleRoadmap as _ } from "@/lib/mockData";
-import { CAREER_REQUIREMENTS } from "@/lib/mockData";
+import { Role, StudentProfile, MOCK_STUDENTS, initialStudentForSignup } from "@/lib/mockData";
 
 interface User {
   id: string;
